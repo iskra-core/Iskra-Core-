@@ -1,0 +1,25 @@
+# ==============================================================================
+# Iskra Core: Dharma-Net Node Dependency Specification
+# Step 1: Loss Dukkha Manifesto & Step 2: Sangha-Net Architecture (2026)
+# ==============================================================================
+
+# Core Tensor Processing Substrate & Neural Networks
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.38.0
+accelerate>=0.27.0
+
+# Decentralized P2P Networking & DePIN Substrate
+libp2p>=0.2.2
+kademlia>=2.2.2
+cryptography>=42.0.0
+pydantic>=2.6.0
+
+# DeSci Integration & Data Verification
+httpx>=0.26.0
+numpy>=1.26.0
+pycryptodome>=3.20.0
+
+# System Tools
+python-dotenv>=1.0.1
+click>=8.1.0
